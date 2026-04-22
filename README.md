@@ -1,61 +1,101 @@
-## 📁 1. `numbers.txt` asosidagi vazifalar
+# 📁 1. `numbers.txt` asosidagi vazifalar (Input → Output)
 
-### 🔹 Boshlang‘ich
+## 🔹 Boshlang‘ich
 
-1. Fayldagi barcha sonlarni ekranga chiqaruvchi dastur yozing.
-2. Fayldagi sonlar yig‘indisini hisoblang.
-3. Fayldagi eng katta sonni aniqlang.
-4. Fayldagi barcha juft sonlarni chiqaring.
-5. Fayldagi sonlar o‘rtachasini (average) hisoblang.
+**1.**
+`Input/numbers.txt` fayldagi barcha sonlarni o‘qing va ularni o‘zgartirmasdan `Output/task01.txt` fayliga yozing.
 
-### 🔸 O‘rta
+**2.**
+`Input/numbers.txt` fayldagi sonlar yig‘indisini hisoblab, natijani `Output/task02.txt` fayliga yozing.
 
-6. Fayldagi barcha toq sonlarni yangi `odd_numbers.txt` fayliga yozing.
-7. Fayldagi har bir sonni kvadratga ko‘paytirib ekranga chiqaring.
-8. Fayldagi sonlar ichidan 5 ga karralilarni sanang va ularni chiqaring.
-9. Sonlar nechta raqamdan iboratligini (1 xonali, 2 xonali...) aniqlang.
-10. Sonlar ro‘yxatini tartiblab, `sorted_numbers.txt` fayliga yozing.
+**3.**
+`Input/numbers.txt` fayldagi eng katta sonni aniqlab, `Output/task03.txt` fayliga yozing.
 
----
+**4.**
+`Input/numbers.txt` fayldagi barcha juft sonlarni filtrlab, ularni `Output/task04.txt` fayliga yozing.
 
-## 📁 2. `students.txt` asosidagi vazifalar
-
-### 🔹 Boshlang‘ich
-
-11. Fayldagi barcha ismlarni ekranga chiqaring.
-12. Ismlar sonini hisoblang.
-13. Ismlarni alfavit bo‘yicha tartiblang.
-14. Ismlarni teskari tartibda chiqaring.
-
-### 🔸 O‘rta
-
-15. `students.txt` faylidagi har bir ism nechta harfdan iboratligini ko‘rsating.
-16. Ismi 5 harfdan uzun bo‘lgan talabalarni chiqaring.
-17. Ismi “A” harfi bilan boshlanuvchilarni alohida ro‘yxatga oling (`a_names.txt`).
-18. Foydalanuvchi ism kiritadi, u faylda mavjudmi — shuni tekshiradigan dastur yozing.
+**5.**
+`Input/numbers.txt` fayldagi sonlarning o‘rtacha qiymatini (average) hisoblab, `Output/task05.txt` fayliga yozing.
 
 ---
 
-## 📁 3. `grades.csv` asosidagi vazifalar
+## 🔸 O‘rta
 
-### 🔹 Boshlang‘ich
+**6.**
+`Input/numbers.txt` fayldagi barcha toq sonlarni ajratib, ularni `Output/task06.txt` fayliga yozing.
 
-19. Barcha o‘quvchilar ismi va bahosini ekranga chiqaruvchi dastur yozing.
-20. Barcha baholarning o‘rtachasini hisoblang.
-21. Eng yuqori baho olgan o‘quvchini toping.
-22. Bahosi 5 bo‘lganlar sonini hisoblang.
-23. Har bir baho nechi marta qatnashganini sanang (`Counter` dan foydalaning).
-24. O‘rtacha bahodan yuqori olganlar ro‘yxatini chiqaring.
-25. `high_scores.csv` fayliga faqat 5 olganlarni yozing.
+**7.**
+`Input/numbers.txt` fayldagi har bir sonni kvadratga oshirib (`n^2`), natijalarni `Output/task07.txt` fayliga yozing.
+
+**8.**
+`Input/numbers.txt` fayldagi 5 ga karrali sonlarni aniqlang, ularni va ularning umumiy sonini `Output/task08.txt` fayliga yozing.
+
+**9.**
+`Input/numbers.txt` fayldagi har bir son nechta raqamdan iboratligini aniqlab (masalan: 1 xonali, 2 xonali), natijani `Output/task09.txt` fayliga yozing.
+
+**10.**
+`Input/numbers.txt` fayldagi sonlarni o‘sish tartibida saralab, `Output/task10.txt` fayliga yozing.
 
 ---
 
-## 📌 Eslatma:
+# 📁 2. `students.txt` asosidagi vazifalar (Input → Output)
 
-Quyidagi Python metodlari o‘quvchilarga kerak bo‘ladi:
+## 🔹 Boshlang‘ich
 
-* `with open(...)`
-* `.readlines()`, `.splitlines()`
-* `.strip()`, `.split(",")`
-* `int()`, `sum()`, `len()`, `max()`, `min()`
-* `sorted()`, `filter()`, `lambda`, `write()`, `append`
+**11.**
+`Input/students.txt` fayldagi barcha ismlarni o‘qib, ularni `Output/task11.txt` fayliga yozing.
+
+**12.**
+`Input/students.txt` fayldagi jami ismlar sonini hisoblab, natijani `Output/task12.txt` fayliga yozing.
+
+**13.**
+`Input/students.txt` fayldagi ismlarni alfavit tartibida saralab, `Output/task13.txt` fayliga yozing.
+
+**14.**
+`Input/students.txt` fayldagi ismlarni teskari tartibda joylashtirib, `Output/task14.txt` fayliga yozing.
+
+---
+
+## 🔸 O‘rta
+
+**15.**
+`Input/students.txt` fayldagi har bir ism uzunligini (harflar sonini) hisoblab, `Output/task15.txt` fayliga yozing.
+
+**16.**
+`Input/students.txt` fayldagi uzunligi 5 ta harfdan katta bo‘lgan ismlarni filtrlab, `Output/task16.txt` fayliga yozing.
+
+**17.**
+`Input/students.txt` fayldagi “A” harfi bilan boshlanuvchi ismlarni ajratib, `Output/task17.txt` fayliga yozing.
+
+**18.**
+Foydalanuvchidan ism qabul qilinadi. Ushbu ism `Input/students.txt` faylida mavjud yoki mavjud emasligini tekshirib, natijani (`FOUND` / `NOT FOUND`) `Output/task18.txt` fayliga yozing.
+
+---
+
+# 📁 3. `grades.csv` asosidagi vazifalar (Input → Output)
+
+## 🔹 Boshlang‘ich
+
+**19.**
+`Input/grades.csv` fayldan barcha o‘quvchilar ismi va baholarini o‘qib, formatlangan holda `Output/task19.txt` fayliga yozing.
+
+**20.**
+`Input/grades.csv` fayldagi barcha baholarning o‘rtacha qiymatini hisoblab, `Output/task20.txt` fayliga yozing.
+
+**21.**
+`Input/grades.csv` fayldagi eng yuqori baho olgan o‘quvchini aniqlab, `Output/task21.txt` fayliga yozing.
+
+**22.**
+`Input/grades.csv` fayldagi bahosi `5` bo‘lgan o‘quvchilar sonini hisoblab, `Output/task22.txt` fayliga yozing.
+
+**23.**
+`Input/grades.csv` fayldagi har bir baho nechta marta uchraganini hisoblab (`Counter`), natijani `Output/task23.txt` fayliga yozing.
+
+**24.**
+`Input/grades.csv` fayldagi o‘rtacha bahodan yuqori natija ko‘rsatgan o‘quvchilarni aniqlab, `Output/task24.txt` fayliga yozing.
+
+**25.**
+`Input/grades.csv` fayldagi faqat bahosi `5` bo‘lgan o‘quvchilarni ajratib, ularni `Output/task25.txt` fayliga yozing.
+
+
+ko‘rinishida production-ready qilib beraman.
