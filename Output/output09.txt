@@ -1,0 +1,1 @@
+['1 xonali: 5', '2 xonali: 10', '1 xonali: 3', '2 xonali: 22', '1 xonali: 7', '1 xonali: 2', '2 xonali: 12', '2 xonali: 43', '2 xonali: 65', '3 xonali: 534', '3 xonali: 532', '1 xonali: 4', '1 xonali: 8', '2 xonali: 76']
